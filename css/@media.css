@@ -1,0 +1,145 @@
+@media screen and (max-width: 425px) {
+    .header {
+        background-image: url(../img/mobile.png);
+        background-color: #1a1915;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding-top: 20px;
+        padding-bottom: 138px;
+        background-image: url(../img/bg-768w.png);
+        background-color: #1a1915;
+    }
+
+    .navigation {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .navigation_list {
+        margin-bottom: 120px;
+        justify-content: center;
+    }
+
+    .find-wrap {
+        max-width: 350px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .find-title {
+        margin-top: auto;
+    }
+
+    .find-description span {
+        display: block;
+    }
+
+    .partner_list-item {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 220px;
+    }
+
+    .partner_list-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding-top: 38px;
+        padding-bottom: 234px;
+    }
+
+    .navigation {
+        flex-direction: row-reverse;
+        margin-bottom: 152px;
+    }
+
+    .navigation_list {
+        justify-content: flex-end;
+    }
+
+    .find-wrap {
+        max-width: 540px;
+    }
+
+    .find-title {
+        font-size: 52px;
+        margin-bottom: 40px;
+    }
+
+    .find-description {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+
+    .find-partner_button {
+        max-width: 226px;
+    }
+
+    .partner-title {
+        margin-bottom: 30px;
+    }
+
+    .partner_list {
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 39px;
+    }
+
+    .partner_order1 {
+        order: 0;
+    }
+
+    .partner_order2 {
+        order: 1;
+    }
+
+    .partner_order3 {
+        order: 2;
+    }
+
+    .partner_order4 {
+        order: 3;
+    }
+
+    .partner-more_button {
+        max-width: 194px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 939px) {
+    .header {
+        background-image: url(../img/bg-940w.png);
+        background-color: #1a1915;
+    }
+
+    .partners {
+        padding-bottom: 40px;
+    }
+
+    .partner_list {
+        max-width: 485px;
+    }
+
+    .partner_list-item:not(:nth-child(2n)) {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .header {
+        background-image: url(../img/bg-1440w.png);
+        background-color: #1a1915;
+    }
+
+    .partners {
+        padding-bottom: 73px;
+    }
+}
